@@ -24,6 +24,8 @@ console.log(challenge.split(" "));
 const bigTech = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon";
 console.log(bigTech.split(","));
 // Change Moringa is great to 30 Days Of Python using replace() method.
+let python = "30 Days Of Python";
+console.log(challenge.replace("Moringa is great", python));
 // What is character at index 15 in 'Moringa is great' string? Use charAt() method.
 // What is the character code of J in 'Moringa is great' string using charCodeAt()
 // Use indexOf to determine the position of the first occurrence of a in Moringa is great
