@@ -7,8 +7,11 @@ console.log(challenge);
 // Print the length of the string on the browser console using console.log()
 console.log(challenge.length);
 // Change all the string characters to capital letters using toUpperCase() method
+console.log(challenge.toUpperCase());
 // Change all the string characters to lowercase letters using toLowerCase() method
+console.log(challenge.toLowerCase());
 // Cut (slice) out the first word of the string using substr() or substring() method
+console.log(challenge.substring (0,7));
 // Slice out the phrase Days Of JavaScript from Moringa is great.
 // Check if the string contains a word Script using includes() method
 // Split the string into an array using split() method
