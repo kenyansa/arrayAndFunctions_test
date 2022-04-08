@@ -55,3 +55,11 @@ console.log(challenge.match("a"));
 console.log(challenge.concat("! 30 Days of ", "JavaScript"));
 // Use repeat() method to print Moringa is great 2 times
 console.log(challenge.repeat(2));
+
+//Exercise Level 2
+//printing out a paragraph
+const par = "The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.\n";
+console.log(par);
+//printing mother teresa's quote
+const mteresa = "Love is not patronizing and charity isn't about pity, it is about love.\n Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead.";
+console.log(mteresa);
