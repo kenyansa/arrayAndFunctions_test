@@ -13,7 +13,9 @@ console.log(challenge.toLowerCase());
 // Cut (slice) out the first word of the string using substr() or substring() method
 console.log(challenge.substring (0,7));
 // Slice out the phrase Days Of JavaScript from Moringa is great.
+
 // Check if the string contains a word Script using includes() method
+console.log(challenge.includes("Script"));
 // Split the string into an array using split() method
 // Split the string Moringa is great at the space using split() method
 // 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
