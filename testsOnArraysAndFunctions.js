@@ -35,10 +35,18 @@ console.log(challenge.indexOf("a"));
 // Use lastIndexOf to determine the position of the last occurrence of a in Moringa is great.
 console.log(challenge.lastIndexOf("a"));
 // Use indexOf to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+const sentence = 'You cannot end a sentence with because because because is a conjunction'
+console.log(sentence.indexOf("because"));
 // Use lastIndexOf to find the position of the last occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+const sentence2 = 'You cannot end a sentence with because because because is a conjunction'
+console.log(sentence2.lastIndexOf("because"));
 // Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+console.log(sentence2.search("because"));
 // Use trim() to remove any trailing whitespace at the beginning and the end of a string.E.g ' Moringa is great '.
+const challenge2 = " Moringa is great ";
+console.log(challenge2.trim(" "));
 // Use startsWith() method with the string Moringa is great and make the result true
+console.log(challenge.startsWith("Moringa"));
 // Use endsWith() method with the string Moringa is great and make the result true
 // Use match() method to find all the a’s in Moringa is great
 // Use concat() and merge '30 Days of' and 'JavaScript' to a single string, 'Moringa is great'
