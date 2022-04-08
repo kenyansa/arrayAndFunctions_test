@@ -17,6 +17,7 @@ console.log(challenge.substring (0,7));
 // Check if the string contains a word Script using includes() method
 console.log(challenge.includes("Script"));
 // Split the string into an array using split() method
+console.log(challenge.split([]));
 // Split the string Moringa is great at the space using split() method
 // 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
 // Change Moringa is great to 30 Days Of Python using replace() method.
