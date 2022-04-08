@@ -54,3 +54,4 @@ console.log(challenge.match("a"));
 // Use concat() and merge '30 Days of' and 'JavaScript' to a single string, 'Moringa is great'
 console.log(challenge.concat("! 30 Days of ", "JavaScript"));
 // Use repeat() method to print Moringa is great 2 times
+console.log(challenge.repeat(2));
