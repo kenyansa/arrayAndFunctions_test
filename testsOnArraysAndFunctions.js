@@ -27,7 +27,9 @@ console.log(bigTech.split(","));
 let python = "30 Days Of Python";
 console.log(challenge.replace("Moringa is great", python));
 // What is character at index 15 in 'Moringa is great' string? Use charAt() method.
+console.log(challenge.charAt(15));
 // What is the character code of J in 'Moringa is great' string using charCodeAt()
+console.log(challenge.charCodeAt(13));
 // Use indexOf to determine the position of the first occurrence of a in Moringa is great
 // Use lastIndexOf to determine the position of the last occurrence of a in Moringa is great.
 // Use indexOf to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
