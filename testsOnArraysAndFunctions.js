@@ -48,6 +48,8 @@ console.log(challenge2.trim(" "));
 // Use startsWith() method with the string Moringa is great and make the result true
 console.log(challenge.startsWith("Moringa"));
 // Use endsWith() method with the string Moringa is great and make the result true
+console.log(challenge.endsWith("great"));
 // Use match() method to find all the a’s in Moringa is great
+console.log(challenge.match("a"));
 // Use concat() and merge '30 Days of' and 'JavaScript' to a single string, 'Moringa is great'
 // Use repeat() method to print Moringa is great 2 times
