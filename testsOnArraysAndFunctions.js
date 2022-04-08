@@ -68,3 +68,7 @@ let a = "10";
 let b = 10;
 console.log(typeof a === b ? "True" : parseInt(a));
 console.log(a);
+// Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
+let num = "9.81";
+console.log(typeof num === b ? "True" : parseFloat(b));
+console.log(num); //converted to a number
