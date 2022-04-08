@@ -72,3 +72,18 @@ console.log(a);
 let num = "9.81";
 console.log(typeof num === b ? "True" : parseFloat(b));
 console.log(num); //converted to a number
+
+// Check if 'on' is found in both python and jargon
+const name1 = "python";
+const name2 = "jargon";
+console.log(name1.includes("on"));
+console.log(name2.includes("on"));
+
+// I hope this course is not full of jargon. Check if jargon is in the sentence.
+const wishfulThinking = "I hope this course is not full of jargon."
+console.log(wishfulThinking.includes("jargon"));
+// Generate a random number between 0 and 100 inclusively.
+// Generate a random number between 50 and 100 inclusively.
+// Generate a random number between 0 and 255 inclusively.
+// Access the 'JavaScript' string characters using a random number.
+// Use console.log() and escape characters to print the following pattern.
