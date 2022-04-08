@@ -21,6 +21,8 @@ console.log(challenge.split());
 // Split the string Moringa is great at the space using split() method
 console.log(challenge.split(" "));
 // 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
+const bigTech = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon";
+console.log(bigTech.split(","));
 // Change Moringa is great to 30 Days Of Python using replace() method.
 // What is character at index 15 in 'Moringa is great' string? Use charAt() method.
 // What is the character code of J in 'Moringa is great' string using charCodeAt()
