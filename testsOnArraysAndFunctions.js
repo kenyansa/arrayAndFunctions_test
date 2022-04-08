@@ -83,6 +83,8 @@ console.log(name2.includes("on"));
 const wishfulThinking = "I hope this course is not full of jargon."
 console.log(wishfulThinking.includes("jargon"));
 // Generate a random number between 0 and 100 inclusively.
+const randNum = Math.floor(Math.random() * 101); 
+console.log(randNum);
 // Generate a random number between 50 and 100 inclusively.
 // Generate a random number between 0 and 255 inclusively.
 // Access the 'JavaScript' string characters using a random number.
