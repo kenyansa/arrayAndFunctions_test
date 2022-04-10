@@ -86,7 +86,7 @@ console.log(wishfulThinking.includes("jargon"));
 const randNum = Math.floor(Math.random() * 101); 
 console.log(randNum);
 // Generate a random number between 50 and 100 inclusively.
-const randNum2 = Math.floor(Math.random() * 101);
+const randNum2 = Math.floor(Math.random() * 101)+50;
 console.log(randNum2);
 // Generate a random number between 0 and 255 inclusively.
 const randNum3 = Math.floor(Math.random() * 256);
@@ -95,9 +95,10 @@ console.log(randNum3);
 
 //Generate Random Strings using numbers, letters, and symbols
 //first, we declare the characters
-const randomString = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~!@#$%^&*()_+=-";
+
 function generateRandomString(length) {
   let result = " ";
+  const randomString = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~!@#$%^&*()_+=-";
   const randomStringLength = randomString.length;
   for (let i = 0; i < length; i++) {
     result += randomString.charAt(Math.floor(Math.random() * randomStringLength));
@@ -106,3 +107,22 @@ function generateRandomString(length) {
 }
 console.log(generateRandomString(15));
 // Use console.log() and escape characters to print the following pattern.
+// 1 1 1 1 1
+// 2 1 2 4 8
+// 3 1 3 9 27
+// 4 1 4 16 64
+// 5 1 5 25 125
+// function numPattern (){
+//   let c = [1,2,3,4,5];
+//   for (i=0;i<length;i++){
+//     result = math.pow
+//   }
+// } 
+// let d = [1,2,3];
+// Math.pow(c,d);
+// console.log(Math.pow(c[i],d[i]));
+
+// Use substr to slice out the phrase because because because from the following sentence:
+// 'You cannot end a sentence with because because because is a conjunction'
+const sentSlice = "You cannot end a sentence with because because because is a conjunction";
+console.log(sentSlice.substring(31,54));
