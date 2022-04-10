@@ -92,4 +92,17 @@ console.log(randNum2);
 const randNum3 = Math.floor(Math.random() * 256);
 console.log(randNum3);
 // Access the 'JavaScript' string characters using a random number.
+
+//Generate Random Strings using numbers, letters, and symbols
+//first, we declare the characters
+const randomString = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~!@#$%^&*()_+=-";
+function generateRandomString(length) {
+  let result = " ";
+  const randomStringLength = randomString.length;
+  for (let i = 0; i < length; i++) {
+    result += randomString.charAt(Math.floor(Math.random() * randomStringLength));
+  }
+  return result;
+}
+console.log(generateRandomString(15));
 // Use console.log() and escape characters to print the following pattern.
