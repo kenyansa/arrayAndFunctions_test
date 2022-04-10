@@ -126,3 +126,12 @@ console.log(generateRandomString(15));
 // 'You cannot end a sentence with because because because is a conjunction'
 const sentSlice = "You cannot end a sentence with because because because is a conjunction";
 console.log(sentSlice.substring(31,54));
+
+// Exercise Level 3
+// 'Love is the best thing in this world. Some found their love and some are still looking for their love.' 
+// Count the number of word love in this sentence.
+const loves ='Love is the best thing in this world. Some found their love and some are still looking for their love.';
+console.log(loves.split("love").length);
+
+// Use match() to count the number of all because in the following sentence:
+// 'You cannot end a sentence with because because because is a conjunction'
