@@ -86,6 +86,10 @@ console.log(wishfulThinking.includes("jargon"));
 const randNum = Math.floor(Math.random() * 101); 
 console.log(randNum);
 // Generate a random number between 50 and 100 inclusively.
+const randNum2 = Math.floor(Math.random() * 101);
+console.log(randNum2);
 // Generate a random number between 0 and 255 inclusively.
+const randNum3 = Math.floor(Math.random() * 256);
+console.log(randNum3);
 // Access the 'JavaScript' string characters using a random number.
 // Use console.log() and escape characters to print the following pattern.
