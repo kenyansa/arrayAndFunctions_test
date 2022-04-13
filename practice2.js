@@ -45,3 +45,16 @@ function outer(greeting, msg = "It's a fine day to continue learning") {
   // passing arguments that get stored in innerFunction's name and lang parameters.
 }
 console.log(outer("Hello"));// 1: We call outer, passing "Hello" as an argument.
+
+// Demo for scope chain
+function demoChain(swahiliGreeting) {
+  const part1 = "engineer";
+  return function () {
+    const part2 = "Kenyansa";
+    return function () {
+      console.log(`${part1.toUpperCase()} ${part2}! ${swahiliGreeting}`);
+    };
+  };
+}
+
+console.log(demoChain("Habari ya asubuhi")()());
